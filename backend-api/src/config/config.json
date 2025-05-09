@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "rootpassword",
+    "database": "godmota_dev",
+    "host": "localhost",  
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "rootpassword",
+    "database": "godmota_test",
+    "host": "db",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "rootpassword",
+    "database": "godmota_prod",
+    "host": "db",
+    "dialect": "mysql"
+  }
+}

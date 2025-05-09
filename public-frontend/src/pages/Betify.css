@@ -1,0 +1,88 @@
+#Betify{
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+#Betify .Info{
+    margin-left: 14px;
+    margin-top: 14px;
+    background-color: #00000078;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+#Betify p{
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Info.PaddingFix{
+    padding: 0px!important;
+}
+
+.Info:not(.PaddingFix){
+    width: 95%;
+    margin-top: 26px!important;
+}
+
+.InfoTop{
+    margin-top: 26px;
+}
+
+.InfoTop .Info:first-child{
+    margin-top: 0!important;
+}
+
+
+.SubTitle, .Title{
+    font-weight: 700;
+}
+
+.Title{
+    font-size: 24px;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button{
+    color: white;
+    background-color: #1F233599 !important;
+    font-weight: 600;
+    border-radius: 20px!important;
+    padding: 20px;
+}
+
+.accordion, .accordion-item, .accordion-header {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.accordion-button:not(.collapsed){
+    color: white;
+    box-shadow: none
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-body{
+    font-size: 16px;
+}
+
+.BetifyPromoImage{
+    width: 100%;
+    height: 403px;
+    background-image: url(../images/BetifyPromo.png);
+    max-width: 340px;
+    border-radius: 20px;
+}

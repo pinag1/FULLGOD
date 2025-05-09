@@ -1,0 +1,35 @@
+#Live{
+    max-width: 1286px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+#Live .Info{
+    margin-left: 14px;
+    margin-top: 14px;
+    background-color: #00000078;
+    border-radius: 20px;
+    padding: 13px;
+    text-align: left;
+    width: 99%;
+    display: flex;
+}
+
+#Live .HeaderPage{
+    margin-bottom: -14px;
+}
+
+.Info > iframe:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#chat_embed {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+  
+  

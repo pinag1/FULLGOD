@@ -1,0 +1,182 @@
+{
+  "gameName": "CLIMB THE QUEST",
+  "gameNameUrl": "climb-the-quest",
+  "gameNameNumber": 3,
+  "information": {
+      "viewer": "GODMOTA",
+      "slot": {
+          "id": 3215,
+          "name": "Gates of Olympus 1000",
+          "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Pragmatic%20Play\/Gates%20of%20Olympus%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-06 03:08:33",
+          "lastTimePlayed": "2025-03-05 23:00:00",
+          "provider": {
+              "id": 31,
+              "name": "Pragmatic Play",
+              "addedDate": "2024-12-28 19:51:11",
+              "updatedDate": "2025-03-06 03:08:33"
+          }
+      },
+      "potential": 15000,
+      "rtp": 96
+  },
+  "lastClimb": {
+      "viewer": "viladopecado75",
+      "slot": {
+          "id": 1341,
+          "name": "Rip City",
+          "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Hacksaw%20Gaming\/Rip%20City.png",
+          "addedDate": "2024-12-28 19:51:12",
+          "updatedDate": "2025-03-05 23:40:33",
+          "lastTimePlayed": "2025-03-05 23:00:00",
+          "provider": {
+              "id": 20,
+              "name": "Hacksaw Gaming",
+              "addedDate": "2024-12-28 19:51:11",
+              "updatedDate": "2025-03-06 01:36:16"
+          }
+      },
+      "date": "13\/02\/2025",
+      "reward": "20 EUR",
+      "level": "Level 3"
+  },
+  "currentLevel": "LEVEL 3",
+  "quests": [
+      {
+          "isActive": false,
+          "level": "LEVEL 1",
+          "quest": "Pelo menos um spin a hitar com multi 2 BONUS"
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 2",
+          "quest": "Pagar mínimo x20 3 BONUS"
+      },
+      {
+          "isActive": true,
+          "level": "LEVEL 3",
+          "quest": "Multi Total mínimo x10 2 BONUS"
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 4",
+          "quest": "Multi total mínimo x15 2 BONUS"
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 5",
+          "quest": "Hitar multi azul 2 BONUS"
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 6",
+          "quest": "Hitar\/Sair Multi vermelho"
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 7",
+          "quest": "5 Bonus a pagar x100"
+      }
+  ],
+  "attempts": [
+      {
+          "isActive": false,
+          "level": "LEVEL 1",
+          "attempt1": "GREEN",
+          "attempt2": "RED",
+          "attempt3": "GREEN",
+          "attempt4": null,
+          "attempt5": null
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 2",
+          "attempt1": "RED",
+          "attempt2": "RED",
+          "attempt3": "GREEN",
+          "attempt4": "GREEN",
+          "attempt5": "GREEN"
+      },
+      {
+          "isActive": true,
+          "level": "LEVEL 3",
+          "attempt1": "RED",
+          "attempt2": "GREEN",
+          "attempt3": null,
+          "attempt4": null,
+          "attempt5": null
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 4",
+          "attempt1": null,
+          "attempt2": null,
+          "attempt3": null,
+          "attempt4": null,
+          "attempt5": null
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 5",
+          "attempt1": null,
+          "attempt2": null,
+          "attempt3": null,
+          "attempt4": null,
+          "attempt5": null
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 6",
+          "attempt1": null,
+          "attempt2": null,
+          "attempt3": null,
+          "attempt4": null,
+          "attempt5": null
+      },
+      {
+          "isActive": false,
+          "level": "LEVEL 7",
+          "attempt1": null,
+          "attempt2": null,
+          "attempt3": null,
+          "attempt4": null,
+          "attempt5": null
+      }
+  ],
+  "lifelines": {
+      "switchQuest": false,
+      "downGradeQuest": true,
+      "askTheChat": true
+  },
+  "prizes": {
+      "level_1": {
+          "prize": "100 PTS",
+          "checkpoint": false
+      },
+      "level_2": {
+          "prize": "300 PTS",
+          "checkpoint": false
+      },
+      "level_3": {
+          "prize": "20 EUR",
+          "checkpoint": true
+      },
+      "level_4": {
+          "prize": "50 EUR",
+          "checkpoint": false
+      },
+      "level_5": {
+          "prize": "100 EUR",
+          "checkpoint": true
+      },
+      "level_6": {
+          "prize": "200 EUR",
+          "checkpoint": false
+      },
+      "level_7": {
+          "prize": "1000 EUR",
+          "checkpoint": false
+      }
+  }
+}

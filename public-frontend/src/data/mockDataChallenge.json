@@ -1,0 +1,60 @@
+{
+  "status": "Playing",
+  "day": "1/5",
+  "start": 15000,
+  "bestDay": 2,
+  "dailyAverage": 123,
+  "profit": 123,
+
+  "players": [
+    
+    {
+      "id": 1,
+      "name": "GODPALHINHA",
+      "playerImage": "https://cdn.empiredrop.com/avatars/default_26.webp",
+      "casino": "Gizbo",
+      "image": "https://cdn.empiredrop.com/casinos/gizbo.png",
+      "start": 5000,
+      "currentBalance": 5000,
+      "day1": "100",
+      "day2": "100",
+      "day3": "100",
+      "day4": "100",
+      "day5": "100",
+      "profit": "500",
+      "rank": 1
+    },
+    {
+      "id": 2,
+      "name": "pinaG",
+      "playerImage": "https://cdn.empiredrop.com/avatars/default_26.webp",
+      "casino": "BCGame",
+      "image": "https://cdn.empiredrop.com/casinos/bcgame.png",
+      "start": 5000,
+      "currentBalance": 5000,
+      "day1": "100",
+      "day2": "100",
+      "day3": "100",
+      "day4": "100",
+      "day5": "100",
+      "profit": "-500",
+      "rank": 2
+    },
+    {
+      "id": 3,
+      "name": "andresgtv",
+      "playerImage": "https://cdn.empiredrop.com/avatars/default_26.webp",
+      "casino": "RioAce",
+      "image": "https://cdn.empiredrop.com/casinos/casabet.png",
+      "start": 5000,
+      "currentBalance": 5000,
+      "day1": "500",
+      "day2": "500",
+      "day3": "100",
+      "day4": "500",
+      "day5": "500",
+      "profit": "500",
+      "rank": 3
+    }
+  ]
+}

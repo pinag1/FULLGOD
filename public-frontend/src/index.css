@@ -1,0 +1,17 @@
+/* Global styles for the body and all elements */
+body, * {
+  margin: 0;
+  font-family: 'Rubik', 'SF Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;  /* Improve text clarity */
+}
+
+/* Link to Google Fonts in your HTML (do not add this in the CSS file directly) */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;500;600;700;900&display=swap');
+
+/* Styles for code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

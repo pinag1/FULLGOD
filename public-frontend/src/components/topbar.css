@@ -1,0 +1,201 @@
+#TopBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0000009e;
+    touch-action: none;
+    height: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px 2px;
+}
+
+#TopBar .Items{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    max-width: 1256px;   
+}
+
+#Logo a:hover{
+    background-color: transparent!important;
+}
+
+.Input{
+    background: none;
+    border-radius: 20px;
+    border-color: #9aa9bb;
+    color: white;
+    max-width: 256px;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input[type="file"], textarea, select {
+    color: white;
+    padding-left: 40px;
+}
+
+.IconAbsolute{
+    top: 10px;
+    left: 16px;
+}
+
+.InputSearch:hover .IconAbsolute, .InputSearch:focus .IconAbsolute, .InputSearch:active .IconAbsolute, .InputSearch:target .IconAbsolute{
+    fill: white;
+}
+
+.Input::placeholder {
+    color: #9aa9bb;
+    opacity: 1; /* Firefox */
+}
+
+.Input:hover{
+    border-color: white;
+    cursor: pointer;
+}
+
+.Input:focus{
+    background-color: transparent;
+    box-shadow: none;
+    border-color: white;
+    color: white;
+}
+
+.SearchResults{
+    position: absolute;
+    top: 57px;
+    left: 0;
+    background: white;
+    border-radius: 20px;
+    display: none;
+    padding: 12px 12px 4px 12px;
+    width: 353px;
+    max-height: 175px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.Hide{
+    display: none;
+}
+
+.Show{
+    display: inline;
+}
+
+li{
+    list-style-type: none;
+}
+
+.SearchResults li a{
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: block;
+}
+
+.SearchResults a:hover{
+    background: rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+}
+
+#ToolTipTopBar{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    z-index: 9999;
+}
+
+.ToolTipTopBar{
+    z-index: 999;
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #9aa9bb;
+  }
+
+.ReactModal__Overlay--after-open{
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background-color: #0000006b  !important;
+}
+
+.ReactModal__Content--after-open{
+    background: linear-gradient(#0000009e, #141530F2) padding-box, linear-gradient(to right, #38A6FF, #7463F4,#EF4A91) border-box!important;
+    border-radius: 1em!important;
+    border: 2px solid transparent!important;
+}
+
+.PopupContent{
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+.ButtonClose{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    padding: 3px
+}
+
+.ButtonClose:hover{
+    background: none;
+}
+
+.ButtonClose:active{
+    background-color: transparent!important;
+}
+
+.ButtonClose:hover svg {
+    fill: white;
+}
+
+.PopupContent .bold{
+    font-weight: bold;
+}
+
+#dropdown-basic{
+    background: transparent;
+  border: none;
+  color: white;
+}
+
+.ButtonWhite{
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Items svg:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+.LiveOn{
+    width: 45px;
+    margin-left: 14px;
+}

@@ -1,0 +1,345 @@
+{
+    "gameName": "KING OF THE HILL",
+    "gameNameUrl": "king-of-the-hill",
+    "gameNameNumber": 2,
+    "currentKing": {
+        "player": "Player 10",
+        "slot": {
+            "id": 89,
+            "name": "Diamond Cats",
+            "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Diamond%20Cats.png",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-02-03 00:09:22",
+            "lastTimePlayed": "2025-02-03 00:00:00",
+            "provider": {
+                "id": 2,
+                "name": "Amatic",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2025-02-10 21:46:17"
+            }
+        },
+        "multi": 101.818181818182
+    },
+    "nowAndNext": {
+        "now": {
+            "player": "Player 12",
+            "slot": {
+                "id": 2299,
+                "name": "Yum Yum Powerways",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Pragmatic%20Play\/Yum%20Yum%20Powerways.png",
+                "addedDate": "2024-12-28 19:51:13",
+                "updatedDate": "2024-12-28 19:51:13",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 31,
+                    "name": "Pragmatic Play",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-03-06 03:08:33"
+                }
+            }
+        },
+        "next": {
+            "player": "Player 13",
+            "slot": {
+                "id": 9,
+                "name": "Black Wolf Hold and Win",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/3%20Oaks%20Gaming\/Black%20Wolf%20Hold%20and%20Win.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": "2024-12-19 08:00:00",
+                "provider": {
+                    "id": 1,
+                    "name": "3 Oaks Gaming",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-26 05:09:53"
+                }
+            }
+        }
+    },
+    "bonusQuantity": {
+        "bonusQuantity": 14,
+        "remainingBonusQuantity": 3
+    },
+    "games": [
+        {
+            "slot": {
+                "id": 54,
+                "name": "Admiral Nelson",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Admiral%20Nelson.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2025-02-02 23:58:17",
+                "lastTimePlayed": "2025-02-02 00:00:00",
+                "provider": {
+                    "id": 2,
+                    "name": "Amatic",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-10 21:46:17"
+                }
+            },
+            "player": "Player 1",
+            "bonusValue": 100,
+            "win": 1,
+            "multi": 1
+        },
+        {
+            "slot": {
+                "id": 344,
+                "name": "Viking Voyage",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Betsoft\/Viking%20Voyage.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 6,
+                    "name": "Betsoft",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2024-12-28 19:51:11"
+                }
+            },
+            "player": "Player 2",
+            "bonusValue": 120,
+            "win": 2,
+            "multi": 1.66666666666667
+        },
+        {
+            "slot": {
+                "id": 90,
+                "name": "Diamond Monkey",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Diamond%20Monkey.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2025-02-03 00:09:22",
+                "lastTimePlayed": "2025-02-03 00:00:00",
+                "provider": {
+                    "id": 2,
+                    "name": "Amatic",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-10 21:46:17"
+                }
+            },
+            "player": "Player 3",
+            "bonusValue": 100,
+            "win": 3,
+            "multi": 3
+        },
+        {
+            "slot": {
+                "id": 226,
+                "name": "Green Grocery",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Belatra\/Green%20Grocery.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 5,
+                    "name": "Belatra",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-26 00:01:34"
+                }
+            },
+            "player": "Player 4",
+            "bonusValue": 100,
+            "win": 4,
+            "multi": 4
+        },
+        {
+            "slot": {
+                "id": 1301,
+                "name": "Gladiator Legends|UNLEASH THE BEAST",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Hacksaw%20Gaming\/Gladiator%20Legends.png",
+                "addedDate": "2024-12-28 19:51:12",
+                "updatedDate": "2025-02-10 01:12:04",
+                "lastTimePlayed": "2025-02-10 00:00:00",
+                "provider": {
+                    "id": 20,
+                    "name": "Hacksaw Gaming",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-03-06 01:36:16"
+                }
+            },
+            "player": "Player 5",
+            "bonusValue": 120,
+            "win": 5,
+            "multi": 4.16666666666667
+        },
+        {
+            "slot": {
+                "id": 111,
+                "name": "Hot Football",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Hot%20Football.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": "2024-12-20 08:00:00",
+                "provider": {
+                    "id": 2,
+                    "name": "Amatic",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-10 21:46:17"
+                }
+            },
+            "player": "Player 6",
+            "bonusValue": 110,
+            "win": 6,
+            "multi": 5.45454545454545
+        },
+        {
+            "slot": {
+                "id": 51,
+                "name": "Tiger Stone Hold and Win",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/3%20Oaks%20Gaming\/Tiger%20Stone%20Hold%20and%20Win.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 1,
+                    "name": "3 Oaks Gaming",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-26 05:09:53"
+                }
+            },
+            "player": "Player 7",
+            "bonusValue": 100,
+            "win": 7,
+            "multi": 7
+        },
+        {
+            "slot": {
+                "id": 200,
+                "name": "7 Days Anotherland",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Belatra\/7%20Days%20Anotherland.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 5,
+                    "name": "Belatra",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-26 00:01:34"
+                }
+            },
+            "player": "Player 8",
+            "bonusValue": 100,
+            "win": 8,
+            "multi": 8
+        },
+        {
+            "slot": {
+                "id": 302,
+                "name": "Kensei Blades",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Betsoft\/Kensei%20Blades.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": "2024-12-20 08:00:00",
+                "provider": {
+                    "id": 6,
+                    "name": "Betsoft",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2024-12-28 19:51:11"
+                }
+            },
+            "player": "Player 9",
+            "bonusValue": 120,
+            "win": 9,
+            "multi": 7.5
+        },
+        {
+            "slot": {
+                "id": 89,
+                "name": "Diamond Cats",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Diamond%20Cats.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2025-02-03 00:09:22",
+                "lastTimePlayed": "2025-02-03 00:00:00",
+                "provider": {
+                    "id": 2,
+                    "name": "Amatic",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-10 21:46:17"
+                }
+            },
+            "player": "Player 10",
+            "bonusValue": 110,
+            "win": 112,
+            "multi": 101.818181818182
+        },
+        {
+            "slot": {
+                "id": 152,
+                "name": "Royal Unicorn",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Royal%20Unicorn.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": "2024-12-19 08:00:00",
+                "provider": {
+                    "id": 2,
+                    "name": "Amatic",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-10 21:46:17"
+                }
+            },
+            "player": "Player 11",
+            "bonusValue": 100,
+            "win": 12,
+            "multi": 12
+        },
+        {
+            "slot": {
+                "id": 2299,
+                "name": "Yum Yum Powerways",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Pragmatic%20Play\/Yum%20Yum%20Powerways.png",
+                "addedDate": "2024-12-28 19:51:13",
+                "updatedDate": "2024-12-28 19:51:13",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 31,
+                    "name": "Pragmatic Play",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-03-06 03:08:33"
+                }
+            },
+            "player": "Player 12",
+            "bonusValue": 100,
+            "win": null,
+            "multi": null
+        },
+        {
+            "slot": {
+                "id": 9,
+                "name": "Black Wolf Hold and Win",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/3%20Oaks%20Gaming\/Black%20Wolf%20Hold%20and%20Win.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": "2024-12-19 08:00:00",
+                "provider": {
+                    "id": 1,
+                    "name": "3 Oaks Gaming",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-26 05:09:53"
+                }
+            },
+            "player": "Player 13",
+            "bonusValue": 100,
+            "win": null,
+            "multi": null
+        },
+        {
+            "slot": {
+                "id": 108,
+                "name": "Hot Seven",
+                "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Amatic\/Hot%20Seven.png",
+                "addedDate": "2024-12-28 19:51:11",
+                "updatedDate": "2024-12-28 19:51:11",
+                "lastTimePlayed": null,
+                "provider": {
+                    "id": 2,
+                    "name": "Amatic",
+                    "addedDate": "2024-12-28 19:51:11",
+                    "updatedDate": "2025-02-10 21:46:17"
+                }
+            },
+            "player": "Player 14",
+            "bonusValue": 120,
+            "win": null,
+            "multi": null
+        }
+    ]
+}

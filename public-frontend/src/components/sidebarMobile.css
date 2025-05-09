@@ -1,0 +1,160 @@
+#SideBarMobile{
+    display: none
+}
+
+.bm-burger-button{
+    display: none;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+
+.bm-overlay{
+    background-color: transparent!important;
+}
+
+#sideBarMobile{
+    width: 240px; 
+    height: auto; 
+    background: #0000009e;
+    text-align: left;
+    overflow: auto;
+    border-radius: 20px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px 2px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 3px;
+}
+
+
+#sideBarMobile::-webkit-scrollbar {
+    display: none;
+}
+
+
+#SideBarMobile{
+    position: absolute;
+    left: 0%;
+    top: 16px;
+    /* z-index: 1; */
+    overflow-y: auto;
+    -ms-scroll-chaining: none;
+    overscroll-behavior: contain;
+    /* padding: 0.75rem; */
+    height: calc(var(--vh, 1vh)*100 - 130px);
+    scrollbar-width: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#SideBarMobile::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-pills .nav-link{
+    border-radius: 20px;
+}
+
+.bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+@media (max-width:920px)  { 
+    #SideBarMobile{
+        display: inline
+    }
+.bm-burger-button{
+    display: inline;
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    left: 16px;
+    top: 18px;
+}
+
+.InputSearch{
+    display: none!important;
+}
+
+.LogoGODMOTA{
+    display: none!important;
+}
+
+#TopBarContent{
+    top: -16px;
+    width: 95%;
+}
+
+#TopBarContent.AnimationMobile{
+    top: -30px!important;
+    width: 100%!important;
+    transition: 0.2s;
+}
+
+#TopBarContent.AnimationMobile #TopBar{
+    background: #1F2335;
+    border-radius: 0!important;
+    transition: 0.2s;
+}
+
+#TopBarContent.AnimationMobile #SideBarMobile{
+    left: 5%!important;
+    transition: 0.2s;
+}
+
+.App{
+    height: 100%!important;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+#ContainerFix {
+    overflow: unset!important;
+}
+
+#MainContent {
+    overflow: unset!important;
+}
+
+#ContainerFix {
+    max-width: 95%!important;
+    margin-top: 90px!important;
+}
+
+#SideBarMobile > div:first-child{
+    top: -14px!important;
+    left: -20px!important;
+    width: 108%!important;
+}
+
+.Offers{
+    padding-bottom: 60px;
+}
+
+.Header .HeaderPage{
+    font-size: 40px!important;
+}
+
+.Header .HeaderCategory{
+    font-size: 16px!important;
+}
+
+.Header .HeaderSubTitle{
+    font-size: 14px!important;
+}
+
+.ReactModal__Content--after-open{
+    max-width: 90%!important;
+}
+
+}

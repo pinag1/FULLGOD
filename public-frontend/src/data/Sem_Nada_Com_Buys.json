@@ -1,0 +1,397 @@
+{
+  "gameName": "TOURNAMENT",
+  "gameNameUrl": "tournament",
+  "gameNameNumber": 2,
+  "information": { "round": "7/7", "percentage": "98%", "bonus": "51/52" },
+  "state": "OPENING",
+  "rounds": {
+    "round1": {
+      "round": 1,
+      "slot1": {
+        "letter": "A",
+        "slot": {
+          "id": 1286,
+          "name": "Drop'Em|HIGH DROP SPINS",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Hacksaw%20Gaming/Drop%27Em.png",
+          "addedDate": "2024-12-28 19:51:12",
+          "updatedDate": "2025-02-27 23:14:50",
+          "lastTimePlayed": "2025-02-27 23:00:00",
+          "provider": {
+            "id": 20,
+            "name": "Hacksaw Gaming",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:30:50"
+          }
+        },
+        "buy": 80,
+        "information": { "bestWin": 4, "total": 9, "score": 33.3333333333333 },
+        "payments": [
+          { "id": 1, "payment": 2 },
+          { "id": 2, "payment": 3 },
+          { "id": 3, "payment": 4 }
+        ]
+      },
+      "slot2": {
+        "letter": "B",
+        "slot": {
+          "id": 2250,
+          "name": "Sweet Bonanza Dice",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sweet%20Bonanza%20Dice.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2024-12-28 19:51:13",
+          "lastTimePlayed": null,
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": { "bestWin": 7, "total": 18, "score": 66.6666666666667 },
+        "payments": [
+          { "id": 1, "payment": 5 },
+          { "id": 2, "payment": 6 },
+          { "id": 3, "payment": 7 }
+        ]
+      }
+    },
+    "round2": {
+      "round": 2,
+      "slot1": {
+        "letter": "C",
+        "slot": {
+          "id": 2106,
+          "name": "Gates Of Olympus",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gates%20Of%20Olympus.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2025-03-06 03:08:33",
+          "lastTimePlayed": "2025-03-05 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": {
+          "bestWin": 10,
+          "total": 27,
+          "score": 42.8571428571429
+        },
+        "payments": [
+          { "id": 1, "payment": 8 },
+          { "id": 2, "payment": 9 },
+          { "id": 3, "payment": 10 }
+        ]
+      },
+      "slot2": {
+        "letter": "D",
+        "slot": {
+          "id": 3215,
+          "name": "Gates of Olympus 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gates%20of%20Olympus%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 23:47:31",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": {
+          "bestWin": 13,
+          "total": 36,
+          "score": 57.1428571428571
+        },
+        "payments": [
+          { "id": 1, "payment": 11 },
+          { "id": 2, "payment": 12 },
+          { "id": 3, "payment": 13 }
+        ]
+      }
+    },
+    "round3": {
+      "round": 3,
+      "slot1": {
+        "letter": "E",
+        "slot": {
+          "id": 2298,
+          "name": "Wisdom Of Athena",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Wisdom%20Of%20Athena.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2025-02-21 00:22:59",
+          "lastTimePlayed": "2025-02-20 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": { "bestWin": 3, "total": 6, "score": 28.5714285714286 },
+        "payments": [
+          { "id": 1, "payment": 1 },
+          { "id": 2, "payment": 2 },
+          { "id": 3, "payment": 3 }
+        ]
+      },
+      "slot2": {
+        "letter": "F",
+        "slot": {
+          "id": 3646,
+          "name": "Wisdom of Athena 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Wisdom%20of%20Athena%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 00:59:58",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": { "bestWin": 6, "total": 15, "score": 71.4285714285714 },
+        "payments": [
+          { "id": 1, "payment": 4 },
+          { "id": 2, "payment": 5 },
+          { "id": 3, "payment": 6 }
+        ]
+      }
+    },
+    "round4": {
+      "round": 4,
+      "slot1": {
+        "letter": "G",
+        "slot": {
+          "id": 2246,
+          "name": "Sugar Rush",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sugar%20Rush.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2025-02-13 23:11:41",
+          "lastTimePlayed": "2025-02-13 00:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": { "bestWin": 9, "total": 24, "score": 42.1052631578947 },
+        "payments": [
+          { "id": 1, "payment": 7 },
+          { "id": 2, "payment": 8 },
+          { "id": 3, "payment": 9 }
+        ]
+      },
+      "slot2": {
+        "letter": "H",
+        "slot": {
+          "id": 3476,
+          "name": "Sugar Rush 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sugar%20Rush%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-13 00:04:26",
+          "lastTimePlayed": "2025-03-12 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 80,
+        "information": {
+          "bestWin": 12,
+          "total": 33,
+          "score": 57.8947368421053
+        },
+        "payments": [
+          { "id": 1, "payment": 10 },
+          { "id": 2, "payment": 11 },
+          { "id": 3, "payment": 12 }
+        ]
+      }
+    },
+    "round5": {
+      "round": 5,
+      "slot1": {
+        "letter": "B",
+        "slot": {
+          "id": 2250,
+          "name": "Sweet Bonanza Dice",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sweet%20Bonanza%20Dice.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2024-12-28 19:51:13",
+          "lastTimePlayed": null,
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 120,
+        "information": { "bestWin": 4, "total": 10, "score": 9.43396226415094 },
+        "payments": [
+          { "id": 1, "payment": 1 },
+          { "id": 2, "payment": 2 },
+          { "id": 3, "payment": 3 },
+          { "id": 4, "payment": 4 }
+        ]
+      },
+      "slot2": {
+        "letter": "D",
+        "slot": {
+          "id": 3215,
+          "name": "Gates of Olympus 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gates%20of%20Olympus%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 23:47:31",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 120,
+        "information": {
+          "bestWin": 77,
+          "total": 96,
+          "score": 90.5660377358491
+        },
+        "payments": [
+          { "id": 1, "payment": 5 },
+          { "id": 2, "payment": 6 },
+          { "id": 3, "payment": 77 },
+          { "id": 4, "payment": 8 }
+        ]
+      }
+    },
+    "round6": {
+      "round": 6,
+      "slot1": {
+        "letter": "F",
+        "slot": {
+          "id": 3646,
+          "name": "Wisdom of Athena 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Wisdom%20of%20Athena%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 00:59:58",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 120,
+        "information": { "bestWin": 4, "total": 10, "score": 27.7777777777778 },
+        "payments": [
+          { "id": 1, "payment": 1 },
+          { "id": 2, "payment": 2 },
+          { "id": 3, "payment": 3 },
+          { "id": 4, "payment": 4 }
+        ]
+      },
+      "slot2": {
+        "letter": "H",
+        "slot": {
+          "id": 3476,
+          "name": "Sugar Rush 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sugar%20Rush%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-13 00:04:26",
+          "lastTimePlayed": "2025-03-12 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 120,
+        "information": { "bestWin": 8, "total": 26, "score": 72.2222222222222 },
+        "payments": [
+          { "id": 1, "payment": 5 },
+          { "id": 2, "payment": 6 },
+          { "id": 3, "payment": 7 },
+          { "id": 4, "payment": 8 }
+        ]
+      }
+    },
+    "round7": {
+      "round": 7,
+      "slot1": {
+        "letter": "D",
+        "slot": {
+          "id": 3215,
+          "name": "Gates of Olympus 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gates%20of%20Olympus%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 23:47:31",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 160,
+        "information": { "bestWin": 6, "total": 21, "score": 31.8181818181818 },
+        "payments": [
+          { "id": 1, "payment": 1 },
+          { "id": 2, "payment": 2 },
+          { "id": 3, "payment": 3 },
+          { "id": 4, "payment": 4 },
+          { "id": 5, "payment": 5 },
+          { "id": 6, "payment": 6 }
+        ]
+      },
+      "slot2": {
+        "letter": "H",
+        "slot": {
+          "id": 3476,
+          "name": "Sugar Rush 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sugar%20Rush%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-13 00:04:26",
+          "lastTimePlayed": "2025-03-12 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 160,
+        "information": {
+          "bestWin": 11,
+          "total": 45,
+          "score": 68.1818181818182
+        },
+        "payments": [
+          { "id": 1, "payment": 7 },
+          { "id": 2, "payment": 8 },
+          { "id": 3, "payment": 9 },
+          { "id": 4, "payment": 10 },
+          { "id": 5, "payment": 11 },
+          { "id": 6, "payment": null }
+        ]
+      }
+    }
+  },
+  "winner": { "letter": null, "slot": null }
+}

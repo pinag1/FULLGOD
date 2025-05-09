@@ -1,0 +1,195 @@
+{
+  "gameName": "TOURNAMENT",
+  "gameNameUrl": "tournament",
+  "gameNameNumber": 3,
+  "information": { "round": "1/7", "percentage": null, "bonus": "0/52" },
+  "state": "SAVED",
+  "rounds": {
+    "round1": {
+      "round": 1,
+      "slot1": {
+        "letter": "A",
+        "slot": null,
+        "buy": 100,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "B",
+        "slot": null,
+        "buy": 120,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      }
+    },
+    "round2": {
+      "round": 2,
+      "slot1": {
+        "letter": "C",
+        "slot": null,
+        "buy": 100,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "D",
+        "slot": null,
+        "buy": 111,
+        "information": { "bestWin": "Hound ", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      }
+    },
+    "round3": {
+      "round": 3,
+      "slot1": {
+        "letter": "E",
+        "slot": null,
+        "buy": 100,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "F",
+        "slot": null,
+        "buy": 100,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      }
+    },
+    "round4": {
+      "round": 4,
+      "slot1": {
+        "letter": "G",
+        "slot": null,
+        "buy": 100,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "H",
+        "slot": null,
+        "buy": 100,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null }
+        ]
+      }
+    },
+    "round5": {
+      "round": 5,
+      "slot1": {
+        "letter": "?",
+        "slot": null,
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "?",
+        "slot": null,
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      }
+    },
+    "round6": {
+      "round": 6,
+      "slot1": {
+        "letter": "?",
+        "slot": null,
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "?",
+        "slot": null,
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      }
+    },
+    "round7": {
+      "round": 7,
+      "slot1": {
+        "letter": "?",
+        "slot": null,
+        "buy": 200,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null },
+          { "id": 5, "payment": null },
+          { "id": 6, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "?",
+        "slot": null,
+        "buy": 200,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null },
+          { "id": 5, "payment": null },
+          { "id": 6, "payment": null }
+        ]
+      }
+    }
+  },
+  "winner": { "letter": null, "slot": null }
+}

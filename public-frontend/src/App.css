@@ -1,0 +1,432 @@
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: linear-gradient(
+    200deg,
+    #ecd6eb,
+    #b490ff, 
+    #625AFF,  /* azul/lilás */
+    #7369FF, /* roxo suave */
+    #9ffcff
+);
+  background-size: 100% 100%;
+  animation: gradientMove 15s ease infinite;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+}
+
+#SmallTopBar{
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+  background-color: #000115;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+
+.ReactModal__Overlay{
+  z-index: 9999;
+}
+
+.DraggableBox{
+  height: 0;
+  z-index: 9999;
+}
+
+.MediaPlayerTwitchWrapper{
+  position: sticky;
+  z-index: 30;
+  width: 100%;
+  height: 100%;
+}
+
+.AbsoluteFixWidth{
+  position: absolute;
+  width: calc(100% - 2%);
+  height: calc(100% - 2%);
+  top: 1%;
+  left: 0.5%;
+  z-index: -1;
+}
+
+.popup-content .ButtonWhite {
+  margin-bottom: 10px;
+}
+
+.MediaPlayerController{
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+  align-items: center;
+  background: #2a2a3d;
+  padding: 6px;
+  margin-left: auto;
+  margin-right: 0;
+  z-index: 35;
+  top: -30px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.MediaPlayer_Player{
+  background-color: #04041a;
+  z-index: 30;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px 0 8px 8px;
+  box-sizing: border-box;
+  height: 100%;
+  filter: drop-shadow(4px 4px 16px rgba(4,4,26,.16)) drop-shadow(-4px 4px 16px rgba(4,4,26,.16)) drop-shadow(4px 12px 24px rgba(4,4,26,.16));
+}
+
+#TopBarContent{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, 50%);
+  border-radius: 20px;
+  z-index: 3;
+}
+
+#PageWrap{
+  width: 100%;
+}
+
+svg:focus{
+  outline: none;
+}
+
+
+#ActivePromotions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#ActivePromotions svg{
+  margin-right: 4px!important;
+  color: #1CD55E!important;
+  font-size: 8px!important;
+}
+
+#RightSideTopBar svg{
+  color: #9aa9bb;
+  margin-right: 16px;
+}
+
+#RightSideTopBar svg:hover{
+  color: white;
+  cursor: pointer;
+}
+
+#MainContent{
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+}
+
+.SmallText{
+  font-size: 12px;
+  color: #9aa9bb;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.SmallText:hover{
+  background-color: transparent;
+  color: white;
+}
+
+#Page{
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+#ContainerFix{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  width: 100%;
+  display: flex;
+  margin-top: 130px;
+  overflow: auto;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.dropdown-menu.show{
+  border-radius: 20px;
+  border: none;
+}
+
+.active{
+  background-color: #9C85FE4F !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.popup-content{
+  text-align: center;
+  color: white;
+}
+
+.popup-content .ButtonWhite{
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.ReactModal__Overlay--after-open:has(#AgeVerification){
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+}
+
+.popup-content .ButtonWhite{
+  font-weight: 500;
+}
+
+.popup-content .ButtonWhite.Outline{
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  width: 210px;
+}
+
+.popup-content h2{
+  font-weight: 900;
+}
+
+.PopupContentSmall{
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: 10px;
+  max-width: 500px;
+}
+
+@media (max-width: 420px) {
+
+  .InfoPlusCasinos{
+    height: 100%!important;
+  }
+
+  .offerBox .boxInside {
+    padding: 8px!important
+  }
+
+  .casinoImage{
+    background-size: cover!important;
+  }
+
+  .offerBox{
+    max-height: 100%!important;
+  }
+
+  .box.bigger{
+    max-width: 45%!important;
+  }
+
+  .box{
+    max-width: 45%!important;
+  }
+}
+
+
+@media (max-width:920px)  {
+  #background{
+    background: linear-gradient(
+      30deg,
+      #ecd6eb,
+      #b490ff, 
+      #625AFF,  /* azul/lilás */
+      #7369FF, /* roxo suave */
+      #9ffcff
+  )!important;
+  background-size: 150% 150%!important;
+  }
+  
+  #Betify .Info {
+    width: 100%!important;
+  }
+
+  #Betify .BetifyPromoImage {
+      display: none!important;
+  }
+  
+  .DraggableBox{
+      display: none
+  }
+
+  .LiveOn{
+    margin-left: 36px!important;
+  }
+
+  #Betify .HeaderPage svg{
+    width: 150px;
+  }
+
+  #Betify .InfoTop{
+    flex-direction: column;
+  }
+
+  #Betify .BetifyPromoImage{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-position: center;
+    margin-top: 24px;
+  }
+
+  #Betify *{
+    margin-left: auto!important;
+    margin-right: auto;
+  }
+
+  #Betify .Header{
+    margin-left: 14px!important;
+    margin-right: 14px;
+  }
+
+  .Mobile{
+    display: inherit!important;
+  }
+
+  .Desktop{
+    display: none!important;
+  }
+}
+
+.Desktop{
+  display: inherit;
+}
+
+.Mobile{
+  display: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --font-main: 'Rubik', sans-serif;
+  --fill-gradient: linear-gradient(
+    56deg,
+    rgba(108, 122, 235, 0.12) 33%,
+    rgba(150, 159, 235, 0.22) 100%
+  );
+  --fill-gradient-red: linear-gradient(
+     86deg,
+    rgba(235, 68, 68, 0.12) 33%,    /* #EB4444 with opacity 0.12 */
+    rgba(235, 112, 110, 0.22) 100%  /* #EB706E with opacity 0.22 */
+);
+  --fill-gradient-green: linear-gradient(
+    56deg,
+    rgba(68, 235, 76, 0.12) 33%,
+    rgba(110, 235, 121, 0.22) 100%
+  );
+  --fill-gradient-yellow: linear-gradient(
+    56deg,
+    rgba(255, 231, 18, 0.12) 33%,   /* #FFE712 with opacity 0.12 */
+    rgba(255, 238, 63, 0.22) 100%   /* #FFEE3F with opacity 0.22 */
+);
+
+
+  --stroke-gradient: linear-gradient(
+    56deg,
+    rgba(148, 158, 235, 0.05) 0%,
+    rgba(127, 139, 235, 0.7) 100%
+  );
+  --stroke-width: 0.4px;
+  --stroke-width-winner: .8px;
+  --stroke-opacity: 0.66;
+  --multiply-fill: rgba(0, 0, 0, 0.6);
+  --stroke-color-1: rgba(148, 158, 235, 0.05);
+  --stroke-color-2: rgba(127, 139, 235, 0.7);
+  --stroke-color-3: #988DFF;
+/* Yellow Stroke Colors */
+--stroke-color-1-yellow: rgba(255, 231, 18, 0.05);  /* #FFE712 with opacity 0.05 */
+--stroke-color-2-yellow: rgba(255, 238, 63, 0.7);   /* #FFEE3F with opacity 0.7 */
+
+/* Red Stroke Colors */
+--stroke-color-1-red: rgba(235, 68, 68, 0.05);   /* #EB4444 with opacity 0.05 */
+--stroke-color-2-red: rgba(235, 112, 110, 0.7);  /* #EB706E with opacity 0.7 */
+
+/* Green Stroke Colors */
+--stroke-color-1-green: rgba(0, 255, 21, 0.05);   /* #00FF15 with opacity 0.05 */
+--stroke-color-2-green: rgba(0, 179, 43, 0.7);    /* #00B32B with opacity 0.7 */
+--fill-gradient-selected: linear-gradient(
+    56deg,
+    rgba(20, 23, 43, 0.12) 33%,  /* Applying 0.12 opacity to the first color */
+    rgba(29, 31, 46, 0.22) 100%  /* Applying 0.22 opacity to the second color */
+);
+  --fill-color-1: rgba(108, 122, 235, 0.12);
+  --fill-color-2: rgba(150, 159, 235, 0.22);
+  --summary-card-fill: rgba(0, 0, 0, 0.6);
+  --summary-card-blend-mode: multiply;
+  --summary-row-font: 'Rubik', sans-serif;
+  --summary-row-font-weight: normal;
+  --summary-row-font-color: #FFFFFF;
+  --summary-row-font-tracking: 0;
+  --summary-row-fill: rgba(0, 0, 0, 0.6);
+  --summary-row-blend-mode: multiply;
+  --summary-row-stroke-gradient: linear-gradient(
+      56deg,
+      rgba(148, 158, 235, 0.05) 0%,
+      rgba(127, 139, 235, 0.7) 100%
+
+      #988DFF
+  );
+}
+

@@ -1,0 +1,383 @@
+{
+  "gameName": "TOURNAMENT",
+  "gameNameUrl": "tournament",
+  "gameNameNumber": 3,
+  "information": { "round": "5/7", "percentage": "46%", "bonus": "24/52" },
+  "state": "SAVED",
+  "rounds": {
+    "round1": {
+      "round": 1,
+      "slot1": {
+        "letter": "A",
+        "slot": {
+          "id": 2243,
+          "name": "Sticky Bees",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sticky%20Bees.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2024-12-28 19:51:13",
+          "lastTimePlayed": null,
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 100,
+        "information": {
+          "bestWin": 145.25,
+          "total": 171,
+          "score": 67.4024438312968
+        },
+        "payments": [
+          { "id": 1, "payment": 24.75 },
+          { "id": 2, "payment": 145.25 },
+          { "id": 3, "payment": 1 }
+        ]
+      },
+      "slot2": {
+        "letter": "B",
+        "slot": {
+          "id": 1243,
+          "name": "Benny the Beer|SUPER BOOK OF STACKWAYS",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Hacksaw%20Gaming/Benny%20the%20Beer.png",
+          "addedDate": "2024-12-28 19:51:12",
+          "updatedDate": "2025-03-05 23:40:33",
+          "lastTimePlayed": "2025-03-05 23:00:00",
+          "provider": {
+            "id": 20,
+            "name": "Hacksaw Gaming",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:30:50"
+          }
+        },
+        "buy": 120,
+        "information": {
+          "bestWin": 51.28,
+          "total": 99.24,
+          "score": 32.5975561687032
+        },
+        "payments": [
+          { "id": 1, "payment": 51.28 },
+          { "id": 2, "payment": 20.24 },
+          { "id": 3, "payment": 27.72 }
+        ]
+      }
+    },
+    "round2": {
+      "round": 2,
+      "slot1": {
+        "letter": "C",
+        "slot": {
+          "id": 3215,
+          "name": "Gates of Olympus 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gates%20of%20Olympus%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 23:47:31",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 100,
+        "information": {
+          "bestWin": 297.8,
+          "total": 358,
+          "score": 68.6795713791911
+        },
+        "payments": [
+          { "id": 1, "payment": 31.45 },
+          { "id": 2, "payment": 28.75 },
+          { "id": 3, "payment": 297.8 }
+        ]
+      },
+      "slot2": {
+        "letter": "D",
+        "slot": {
+          "id": 3838,
+          "name": "Loner",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/NoLimit%20City/Loner.png",
+          "addedDate": "2025-02-13 01:20:38",
+          "updatedDate": "2025-03-06 00:03:37",
+          "lastTimePlayed": "2025-03-05 23:00:00",
+          "provider": {
+            "id": 25,
+            "name": "NoLimit City",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 00:50:55"
+          }
+        },
+        "buy": 111,
+        "information": {
+          "bestWin": "Hound ",
+          "total": 181.22,
+          "score": 31.3204286208088
+        },
+        "payments": [
+          { "id": 1, "payment": 43.8 },
+          { "id": 2, "payment": 115.2 },
+          { "id": 3, "payment": 22.22 }
+        ]
+      }
+    },
+    "round3": {
+      "round": 3,
+      "slot1": {
+        "letter": "E",
+        "slot": {
+          "id": 3808,
+          "name": "Hounds of Hell|WHAT THE HELL!",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Hacksaw%20Gaming/Hounds%20of%20Hell.png",
+          "addedDate": "2025-02-06 04:59:50",
+          "updatedDate": "2025-03-09 22:58:02",
+          "lastTimePlayed": "2025-03-08 23:00:00",
+          "provider": {
+            "id": 20,
+            "name": "Hacksaw Gaming",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:30:50"
+          }
+        },
+        "buy": 100,
+        "information": {
+          "bestWin": 188.6,
+          "total": 315.9,
+          "score": 45.9557753855106
+        },
+        "payments": [
+          { "id": 1, "payment": 103.7 },
+          { "id": 2, "payment": 23.6 },
+          { "id": 3, "payment": 188.6 }
+        ]
+      },
+      "slot2": {
+        "letter": "F",
+        "slot": {
+          "id": 3533,
+          "name": "Space Zoo",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Hacksaw%20Gaming/Space%20Zoo.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 00:45:18",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 20,
+            "name": "Hacksaw Gaming",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:30:50"
+          }
+        },
+        "buy": 100,
+        "information": {
+          "bestWin": 249.9,
+          "total": 371.5,
+          "score": 54.0442246144894
+        },
+        "payments": [
+          { "id": 1, "payment": 90 },
+          { "id": 2, "payment": 31.6 },
+          { "id": 3, "payment": 249.9 }
+        ]
+      }
+    },
+    "round4": {
+      "round": 4,
+      "slot1": {
+        "letter": "G",
+        "slot": {
+          "id": 2108,
+          "name": "Gems Bonanza",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gems%20Bonanza.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2025-02-14 02:58:11",
+          "lastTimePlayed": "2025-02-14 00:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 100,
+        "information": {
+          "bestWin": 224.1,
+          "total": 256.25,
+          "score": 65.8740359897172
+        },
+        "payments": [
+          { "id": 1, "payment": 31.15 },
+          { "id": 2, "payment": 224.1 },
+          { "id": 3, "payment": 1 }
+        ]
+      },
+      "slot2": {
+        "letter": "H",
+        "slot": {
+          "id": 3541,
+          "name": "Sweet Bonanza 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sweet%20Bonanza%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-13 00:17:44",
+          "lastTimePlayed": "2025-03-12 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 100,
+        "information": {
+          "bestWin": 78.7,
+          "total": 132.75,
+          "score": 34.1259640102828
+        },
+        "payments": [
+          { "id": 1, "payment": 10 },
+          { "id": 2, "payment": 78.7 },
+          { "id": 3, "payment": 44.05 }
+        ]
+      }
+    },
+    "round5": {
+      "round": 5,
+      "slot1": {
+        "letter": "A",
+        "slot": {
+          "id": 2243,
+          "name": "Sticky Bees",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Sticky%20Bees.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2024-12-28 19:51:13",
+          "lastTimePlayed": null,
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "C",
+        "slot": {
+          "id": 3215,
+          "name": "Gates of Olympus 1000",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gates%20of%20Olympus%201000.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 23:47:31",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      }
+    },
+    "round6": {
+      "round": 6,
+      "slot1": {
+        "letter": "F",
+        "slot": {
+          "id": 3533,
+          "name": "Space Zoo",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Hacksaw%20Gaming/Space%20Zoo.png",
+          "addedDate": "2024-12-28 19:51:14",
+          "updatedDate": "2025-03-12 00:45:18",
+          "lastTimePlayed": "2025-03-11 23:00:00",
+          "provider": {
+            "id": 20,
+            "name": "Hacksaw Gaming",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:30:50"
+          }
+        },
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "G",
+        "slot": {
+          "id": 2108,
+          "name": "Gems Bonanza",
+          "image": "https://godmota.fra1.cdn.digitaloceanspaces.com/Pragmatic%20Play/Gems%20Bonanza.png",
+          "addedDate": "2024-12-28 19:51:13",
+          "updatedDate": "2025-02-14 02:58:11",
+          "lastTimePlayed": "2025-02-14 00:00:00",
+          "provider": {
+            "id": 31,
+            "name": "Pragmatic Play",
+            "addedDate": "2024-12-28 19:51:11",
+            "updatedDate": "2025-03-13 01:46:01"
+          }
+        },
+        "buy": 140,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null }
+        ]
+      }
+    },
+    "round7": {
+      "round": 7,
+      "slot1": {
+        "letter": "?",
+        "slot": null,
+        "buy": 200,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null },
+          { "id": 5, "payment": null },
+          { "id": 6, "payment": null }
+        ]
+      },
+      "slot2": {
+        "letter": "?",
+        "slot": null,
+        "buy": 200,
+        "information": { "bestWin": "0", "total": "0", "score": "0" },
+        "payments": [
+          { "id": 1, "payment": null },
+          { "id": 2, "payment": null },
+          { "id": 3, "payment": null },
+          { "id": 4, "payment": null },
+          { "id": 5, "payment": null },
+          { "id": 6, "payment": null }
+        ]
+      }
+    }
+  },
+  "winner": { "letter": null, "slot": null }
+}

@@ -1,0 +1,115 @@
+a:hover {
+    background: rgba(0, 0, 0, 0.11);
+}
+
+.Selected{
+    background-color: #9C85FECF !important;
+}
+
+.Selected.collapsed {
+    background-color: transparent;
+}
+
+.fs-7{
+    font-size: 0.875rem;
+}
+
+#sideBar{
+    width: 240px; 
+    height: auto; 
+    background: #0000009e;
+    text-align: left;
+    overflow: auto;
+    border-radius: 20px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 10px 2px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.badgeNewHomePage{
+    margin-left: -42px!important;
+    background-color:#19FFA6!important;
+    font-weight: 500;
+}
+
+.HotBadgeHomePage{
+    background-color: orange!important;
+}
+
+.badge{
+    margin-top: 1px;
+}
+
+#sideBar::-webkit-scrollbar {
+    display: none;
+}
+
+.Socials{
+    width: 96px;
+    font-size: 14px;
+    /* font-weight: 500; */
+}
+
+.Socials a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.Socials a:hover{
+    font-weight: 500;
+}
+
+.fw-semibold{
+    font-weight: 500!important;
+}
+
+.Copyright{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.BadgeFix{
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+#SideBar{
+    position: absolute;
+    left: 10%;
+    top: 130px;
+    /* z-index: 1; */
+    overflow-y: auto;
+    -ms-scroll-chaining: none;
+    overscroll-behavior: contain;
+    /* padding: 0.75rem; */
+    height: calc(var(--vh, 1vh)*100 - 130px);
+    scrollbar-width: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#SideBar::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-pills .nav-link{
+    border-radius: 20px;
+}
+
+
+@media (max-width:920px)  {
+    #SideBar{
+        display: none
+    }
+
+    #Container{
+        margin-left: none!important;
+        width: 100%!important;
+    }
+}

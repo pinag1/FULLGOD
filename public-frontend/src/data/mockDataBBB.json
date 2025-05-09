@@ -1,0 +1,119 @@
+{
+  "gameName": "BONUS BUY BATTLE",
+  "gameNameUrl": "bonus-buy-battle",
+  "gameNameNumber": 2,
+  "gameNameTotalBonus": "4\/12",
+  "slot1": {
+      "player": "GODMOTA",
+      "slot": {
+          "id": 1304,
+          "name": "Gronk's Gems|GEM HOARDER",
+          "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/Hacksaw%20Gaming\/Gronk%27s%20Gems.png",
+          "addedDate": "2024-12-28 19:51:12",
+          "updatedDate": "2025-03-05 23:40:33",
+          "lastTimePlayed": "2025-03-05 23:00:00",
+          "provider": {
+              "id": 20,
+              "name": "Hacksaw Gaming",
+              "addedDate": "2024-12-28 19:51:11",
+              "updatedDate": "2025-03-06 01:36:16"
+          }
+      },
+      "buy": 100,
+      "information": {
+          "bestWin": 500,
+          "total": 21,
+          "score":30
+      },
+      "scores": [
+          {
+              "id": 1,
+              "payment": 1
+          },
+          {
+              "id": 2,
+              "payment": 200
+          },
+          {
+              "id": 3,
+              "payment": 300
+          },
+          {
+              "id": 4,
+              "payment": 10
+          },
+          {
+              "id": 5,
+              "payment": 500
+          },
+          {
+              "id": 6,
+              "payment": null
+          }
+      ]
+  },
+  "slot2": {
+      "player": "asdadads",
+      "slot": {
+          "id": 40,
+          "name": "Rio Gems Hold and Win",
+          "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/3%20Oaks%20Gaming\/Rio%20Gems%20Hold%20and%20Win.png",
+          "addedDate": "2024-12-28 19:51:11",
+          "updatedDate": "2024-12-28 19:51:11",
+          "lastTimePlayed": null,
+          "provider": {
+              "id": 1,
+              "name": "3 Oaks Gaming",
+              "addedDate": "2024-12-28 19:51:11",
+              "updatedDate": "2025-02-26 05:09:53"
+          }
+      },
+      "buy": 100,
+      "information": {
+          "bestWin": 8000000,
+          "total": 57,
+          "score": 70 
+      },
+      "scores": [
+          {
+              "id": 1,
+              "payment": 70
+          },
+          {
+              "id": 2,
+              "payment": 8000000
+          },
+          {
+              "id": 3,
+              "payment": 900
+          },
+          {
+              "id": 4,
+              "payment": 1000
+          },
+          {
+              "id": 5,
+              "payment": 11
+          },
+          {
+              "id": 6,
+              "payment": 700
+          }
+      ]
+  },
+  "winner": {
+      "id": 40,
+      "name": "Rio Gems Hold and Win asfasfasfas",
+      "image": "https:\/\/godmota.fra1.cdn.digitaloceanspaces.com\/3%20Oaks%20Gaming\/Rio%20Gems%20Hold%20and%20Win.png",
+      "addedDate": "2024-12-28 19:51:11",
+      "updatedDate": "2024-12-28 19:51:11",
+      "lastTimePlayed": null,
+      "provider": {
+          "id": 1,
+          "name": "3 Oaks Gaming",
+          "addedDate": "2024-12-28 19:51:11",
+          "updatedDate": "2025-02-26 05:09:53"
+      }
+  },
+  "state": "OPENING"
+}

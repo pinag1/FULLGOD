@@ -1,0 +1,252 @@
+{
+  "cache_duration": 300,
+  "ranking": [
+    {
+      "rank": 1,
+      "total": 563744,
+      "total_value": "5,637",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb1",
+        "name": "USERNAME-1",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_25.webp",
+        "level": 12
+      }
+    },
+    {
+      "rank": 2,
+      "total": 377335,
+      "total_value": "3,773",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb2",
+        "name": "USERNAME-2",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_26.webp",
+        "level": 11
+      }
+    },
+    {
+      "rank": 3,
+      "total": 236101,
+      "total_value": "2,361",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb3",
+        "name": "USERNAME-3",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_8.webp",
+        "level": 10
+      }
+    },
+    {
+      "rank": 4,
+      "total": 58496,
+      "total_value": "585",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb4",
+        "name": "USERNAME-4",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_10.webp",
+        "level": 5
+      }
+    },
+    {
+      "rank": 5,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 6,
+      "total": 58496,
+      "total_value": "585",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb4",
+        "name": "USERNAME-4",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_10.webp",
+        "level": 5
+      }
+    },
+    {
+      "rank": 7,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 8,
+      "total": 58496,
+      "total_value": "585",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb4",
+        "name": "USERNAME-4",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_10.webp",
+        "level": 5
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    },
+    {
+      "rank": 9,
+      "total": 56534,
+      "total_value": "565",
+      "currency": "EUR",
+      "active": true,
+      "user": {
+        "hash_id": "l1M4rjyvgO6D2L23xxZKXzEb5",
+        "name": "USERNAME-5",
+        "avatar": "https://cdn.empiredrop.com/avatars/default_13.webp",
+        "level": 4
+      }
+    }
+  ]
+}

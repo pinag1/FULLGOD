@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+}
+#Container{
+    height: 100%;
+    width: calc(100% - 250px);
+    margin-left: auto;
+}
+
+#Ofertas{
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.Offers .ButtonWhite{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Offers{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.InfoPlusCasinos{
+    height:401px;
+    background-color: #1F2335;
+    border-radius: 20px;
+    color: white;
+    padding: 24px;
+}
+
+.InfoPlusCasinos .CasinoImage{
+    width: 84px;
+    height: 84px;
+}
+
+.InfoPlusCasinos .Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InfoPlusCasinos .LeftTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InfoPlusCasinos .CasinoBrandName{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.InfoPlusCasinos .RightTop{
+    font-size: 14px;
+}
+
+.InfoPlusCasinos .MiddleContent{
+    text-align: left;
+    margin-top: 24px;
+}
+
+.InfoPlusCasinos .MiddleContent .Title{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.InfoPlusCasinos .MiddleContent .Text{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.InfoPlusCasinos .BottomContent ul, .InfoPlusCasinos .BottomContent ul li{
+    color:#fff;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.box{
+    width: 100%;
+    max-width: 110px;
+    background: #3C456F;
+    border-radius: 10px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.fundoOferta{
+    background: #171E3B;
+    height: 150px;
+    /* padding: 40px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+
+.offerBox{
+    background: transparent;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 12px;
+}
+
+.offerBox:hover {
+    /* transition: 0.25s; */
+    transform: scale(1.01);
+    /* cursor: pointer; */
+    /* transform: perspective(1px) scale(1.04) */
+    transform-origin: 100% 0;
+    box-shadow: 10px 5px 5px #0f0f0f91;
+}
+
+.casinoImage{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.CloseCard{
+    top: 12px;
+    right: 12px;
+    position: absolute;
+    background: #fff;
+    border-radius: 20px;
+    color: black;
+    height: 24px;
+    display: flex;
+}
+
+.CloseCard:hover{
+    cursor: pointer;
+}
+
+
+.box.bigger{
+    max-width: 150px;
+}
+
+.casinoImage.OneGO{
+    background-image: url(../images/1GO.png);
+}
+
+.casinoImage.Betify{
+    background-image: url(../images/Betify.png);
+}
+
+.casinoImage.CasaBet{
+    background-image: url(../images/CasaBet.png);
+}
+
+.casinoImage.RioAce{
+    background-image: url(../images/RioAce.png);
+}
+
+.casinoImage.BCGame{
+    background-image: url(../images/BCGame.png);
+}
+
+.casinoImage.LeBull{
+    background-image: url(../images/Lebull.png);
+}
+
+.casinoImage.SmokAce{
+    background-image: url(../images/BSmoke.png);
+}
+
+.casinoImage.Gizbo{
+    background-image: url(../images/Gizbo.png);
+}
+
+.Header{
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin-left: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.Header .HeaderCategory{
+    font-size: 24px;
+    font-weight: 600;
+    /* letter-spacing: 1.04px; */
+
+}
+
+.Header .HeaderPage{
+    font-size: 74px;
+    font-weight: 900;
+    margin-top: -12px;
+    margin-bottom: -8px;
+    /* letter-spacing: 1.85px; */
+
+}
+
+.Header .HeaderSubTitle{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.offerBox .boxInside{
+    background-color: #1F2335;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 20px;
+    position: relative;
+    top: -17px;
+}
+
+.fundoOferta .infoButton{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 12px;
+    border-radius: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    padding: 0px 12px;
+    background: #fff;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* border-bottom-right-radius: 0;
+    border-top-left-radius: 0; */
+}
+
+.NewBadge{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 12px;
+    border-radius: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    padding: 0px 12px;
+    background: #19FFA6;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* border-bottom-right-radius: 0;
+    border-top-left-radius: 0; */
+}
+
+.OfferExclusive{
+    margin: 12px;
+    /* margin-bottom: 0; */
+}
+
+.OfferExclusive .OfferBox{
+    background-color: #07011A;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.OfferExclusive .OfferBox .LeftSideBox{
+    background-image: url(../images/EmpireDrop.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* opacity: 0.9; */
+}
+
+.OfferExclusive .OfferBox .RightSideBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(50% - 12px);
+}
+
+.OfferExclusive .OfferBox .RightSideBox .ButtonWhite{
+    max-width: 250px;
+}
+
+.OfferExclusive .OfferBox .RightSideBox .box{
+    margin-bottom: 0;
+}
+
+.OfferExclusive .OfferBox .RightSideBox .MiniTitle{
+    font-weight: 500;
+    font-size: 12px;
+    background: #1F2335;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    position: relative;
+    top: -3px;
+    color: white;
+}
+
+.OfferExclusive .OfferBox .ButtonsAndInfo{
+    font-size: 10px;
+    color: white;
+}
+
+.OfferExclusive .Desc{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+
+.HotBadge{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 12px;
+    border-radius: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    padding: 0px 12px;
+    background: orange;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.HotBadge.Left{
+    left: 12px!important
+}
+
+.fundoOferta .HotBadge.Betify{
+    left: 12px;
+    background: orangered;
+}
+
+.fundoOferta .infoButton:hover{
+    cursor: pointer;
+}
+
+.offerBox .boxInside button{
+    border-radius: 20px;
+}
+
+.offerBox .Boxes{
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+.offerBox .boxInside .Title{
+    padding-bottom: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.offerBox .box .MiniTitle{
+    font-weight: 500;
+    font-size: 12px;
+    background: #1F2335;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    position: relative;
+    top: -3px;
+}
+
+.offerBox .box .Desc{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.offerBox .Alert{
+    font-size: 12px;
+    margin-top: -10px;
+    padding-bottom: 12px;
+}
+
+.offerBox button{
+    font-weight: 700;
+}
+
+.offerBox .react-card-flipper{
+    perspective: none!important;
+}
+
+
+@media (max-width:1601px)  {
+
+    .ButtonsAndInfo span{
+        display: none
+    }
+
+}
+
+@media (max-width:1300px)  {
+    .OfferExclusive .OfferBox .RightSideBox .ButtonWhite {
+        max-width: 100%;
+    }
+    .OfferExclusive .OfferBox .ButtonsAndInfo {
+        width: 92%;
+        position: absolute;
+        top: 46px;
+    }
+    .ButtonsAndInfo span{
+        display: none
+    }
+    .OfferExclusive{
+        max-width: 400px;
+        margin: auto;
+    }
+    .OfferExclusive .OfferBox .LeftSideBox {
+        /* background-image: url(../images/BIG2.png); */
+        background-size: 107%;
+        background-repeat: no-repeat;
+        background-position: initial;
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        opacity: 0.9;
+        max-height: 88px;
+    }
+    .OfferExclusive .OfferBox {
+        background-color: #1F2335;
+        height: 160px;
+        flex-direction: column;
+    }
+    .OfferExclusive .OfferBox .RightSideBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 12px;
+    }
+
+}

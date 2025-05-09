@@ -1,0 +1,135 @@
+```mermaid
+erDiagram
+    USER ||--o{ BONUSHUNT : creates
+    USER ||--o{ BONUSBUYBATTLE : "player1/player2"
+    USER ||--o{ TOURNAMENTMATCH : "player1/player2"
+    USER ||--o{ TOURNAMENTPARTICIPANT : participates
+    USER ||--o{ CLIMBTHEQUESTPARTICIPATION : participates1
+    USER ||--o{ ELOMAISFRACOPARTICIPANT : participates
+    USER ||--o{ KINGOFTHEHILLENTRY : participates
+
+    SLOT ||--o{ SLOT_PAYMENT : has
+    SLOT ||--o{ BONUSBUYBATTLE : "slot1/slot2"
+    SLOT ||--o{ TOURNAMENTMATCH : "slot1/slot2"
+    SLOT ||--o{ TOURNAMENTPARTICIPANT : uses
+    SLOT ||--o{ KINGOFTHEHILLENTRY : used
+
+    BONUSHUNT ||--o{ BONUSHUNTSUMMARY : has
+    BONUSHUNT ||--o{ SLOT_PAYMENT : "payments"
+
+    BONUSBUYBATTLE ||--o{ SLOT_PAYMENT : "payments"
+
+    TOURNAMENT ||--o{ TOURNAMENTPARTICIPANT : has
+    TOURNAMENT ||--o{ TOURNAMENTMATCH : has
+    TOURNAMENT ||--o{ SLOT_PAYMENT : "payments"
+
+    CLIMBTHEQUEST ||--o{ CLIMBTHEQUESTPARTICIPATION : has
+    CLIMBTHEQUEST ||--o{ SLOT_PAYMENT : "payments"
+
+    ELOMAISFRACO ||--o{ ELOMAISFRACOPARTICIPANT : has
+    ELOMAISFRACO ||--o{ SLOT_PAYMENT : "payments"
+
+    KINGOFTHEHILL ||--o{ KINGOFTHEHILLENTRY : has
+    KINGOFTHEHILL ||--o{ SLOT_PAYMENT : "payments"
+
+    BONUSHUNTSUMMARY }|..|{ BONUSHUNT : contains
+
+    CLIMBTHEQUESTPARTICIPATION ||--o{ CLIMBTHEQUESTLEVELPROGRESS : progresses
+
+    %% Entities
+    USER {
+      Int id PK
+      String name
+      String email
+      DateTime createdAt
+      DateTime updatedAt
+    }
+    SLOT {
+      Int id PK
+      String name
+      Float rtp
+      DateTime releaseDate
+    }
+    SLOT_PAYMENT {
+      Int id PK
+      Float bet
+      Float payment
+      String source
+      Int eventId
+      DateTime createdAt
+      DateTime updatedAt
+    }
+    BONUSHUNT {
+      Int id PK
+      String name
+      String status
+      DateTime startTime
+      DateTime createdAt
+      DateTime updatedAt
+    }
+    BONUSHUNTSUMMARY {
+      Int id PK
+      Int bonusHuntId FK
+      Int bonusQuantity
+    }
+    BONUSBUYBATTLE {
+      Int id PK
+      Int maxRounds
+      Float slot1BonusValue
+      Float slot2BonusValue
+      Float player1Score
+      Float player2Score
+    }
+    TOURNAMENT {
+      Int id PK
+      String name
+      DateTime createdAt
+      DateTime updatedAt
+    }
+    TOURNAMENTPARTICIPANT {
+      Int id PK
+      Int seed
+      DateTime createdAt
+      DateTime updatedAt
+    }
+    TOURNAMENTMATCH {
+      Int id PK
+      String roundNumber
+      Int matchNumber
+      Float player1Score
+      Float player2Score
+    }
+    CLIMBTHEQUEST {
+      Int id PK
+      String name
+      DateTime createdAt
+    }
+    CLIMBTHEQUESTPARTICIPATION {
+      Int id PK
+      DateTime startedAt
+      DateTime updatedAt
+    }
+    CLIMBTHEQUESTLEVELPROGRESS {
+      Int id PK
+      Int level
+      Int attemptsLeft
+      String result
+    }
+    ELOMAISFRACO {
+      Int id PK
+      String name
+      DateTime createdAt
+    }
+    ELOMAISFRACOPARTICIPANT {
+      Int id PK
+      Float score
+    }
+    KINGOFTHEHILL {
+      Int id PK
+      String name
+      DateTime createdAt
+    }
+    KINGOFTHEHILLENTRY {
+      Int id PK
+    }
+```

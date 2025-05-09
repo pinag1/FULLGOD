@@ -1,0 +1,18 @@
+services:
+  # Admin Frontend
+  admin-frontend:
+    volumes:
+      - ./apps/admin-frontend:/app
+      - public_admin_frontend_modules:/app/node_modules
+
+  # Public Frontend
+  public-frontend:
+    volumes:
+      - ./apps/public-frontend:/app
+      - public_frontend_node_modules:/app/node_modules
+
+  # Backend API
+  backend-api:
+    volumes:
+      - ./apps/backend-api:/app
+      - /app/node_modules

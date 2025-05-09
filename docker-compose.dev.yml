@@ -1,0 +1,46 @@
+services:
+  admin-frontend:
+    build:
+      context: ./apps/admin-frontend
+      dockerfile: Dockerfile.dev
+    environment:
+      NODE_ENV: development
+    volumes:
+      - ./apps/admin-frontend:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    command: ${ADMIN_FRONTEND_COMMAND}
+
+  public-frontend:
+    build:
+      context: ./apps/public-frontend
+      dockerfile: Dockerfile.dev
+    environment:
+      NODE_ENV: development
+    volumes:
+      - ./apps/public-frontend:/app
+      - /app/node_modules
+    ports:
+      - "3001:3000"
+    command: ${PUBLIC_FRONTEND_COMMAND}
+
+  backend-api:
+    build:
+      context: ./apps/backend-api
+      dockerfile: Dockerfile.dev
+    environment:
+      NODE_ENV: development
+      DB_HOST: db
+      DB_USER: ${MYSQL_USER}
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      DB_NAME: ${MYSQL_DATABASE}
+    volumes:
+      - ./apps/backend-api:/app
+      - /app/node_modules
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    command: npm run dev  
+
